@@ -1,3 +1,4 @@
+// IMPORT
 @import 'scss/var';
 @import 'scss/header';
 @import 'scss/main';
@@ -8,6 +9,39 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+// GENERAL
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 24px;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  background-color: $bg-button;
+  color: $bg-w;
+  padding: 5px;
+  font-size: 10px;
+  align-items: center;
+  border: none;
+
+  &:hover {
+    color: $bg-button;
+    background-color: $bg-w;
+    border: 0.3px solid $bg-button;
+  }
+
+  img {
+    height: 15px;
+  }
 }
 
 // HELPER

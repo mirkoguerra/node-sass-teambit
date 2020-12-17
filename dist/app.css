@@ -2,6 +2,64 @@ header {
   background-color: #FFFFFF;
 }
 
+header section.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+header section.nav-bar img {
+  margin: 20px 0;
+}
+
+header section.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header section.nav-bar ul li {
+  margin-left: 10px;
+}
+
+header section.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header section.nav-bar ul li a:hover {
+  color: #FFE7D1;
+}
+
+header section.jumbotron {
+  display: flex;
+  flex-direction: row;
+}
+
+header section.jumbotron section {
+  width: 50%;
+}
+
+header section.jumbotron section.left h1 {
+  margin: 40px 0 20px 0;
+}
+
+header section.jumbotron section.left div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+header section.jumbotron section.left div button {
+  margin-right: 5px;
+}
+
+header section.jumbotron section.right img {
+  width: 100%;
+}
+
 main section.rabbits {
   background-color: #FFE7D1;
 }
@@ -22,6 +80,41 @@ footer {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 10px;
+  align-items: center;
+  border: none;
+}
+
+.button:hover {
+  color: blue;
+  background-color: #FFFFFF;
+  border: 0.3px solid blue;
+}
+
+.button img {
+  height: 15px;
 }
 
 .border {

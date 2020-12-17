@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- PER LA VISUALIZZAZIONE -->
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/> -->
     <!-- PER FONT AWESOME 5.15.1 -->
 
@@ -21,12 +25,45 @@
   </head>
   <body>
 
-    <header class="h-100">
+    <header>
+      <div class="container">
+
+        <section class="nav-bar">
+          <img src="img/logo.svg" alt="logo">
+          <ul>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </section>
+
+        <section class="jumbotron">
+
+          <section class="left">
+            <h1>Understand, recognize and develop your people</h1>
+            <p>Teambit helps teams create a high performing culture with regular feedback</p>
+            <div>
+              <button class="button" type="button" name="button"><img src="img/google-logo.svg" alt="logo google">Sign up with Google</button>
+              <button class="button" type="button" name="button"><img src="img/google-logo.svg" alt="logo google">Sign up with Google</button>
+            </div>
+          </section>
+
+          <section class="right">
+            <img src="img/jumbotron.jpg" alt="animali che parlano">
+          </section>
+
+        </section>
+
+      </div>
     </header>
 
     <main>
 
-      <section class="rabbits h-100">
+      <section class="rabbits">
+        <div class="container h-100 border">
+        </div>
       </section>
 
       <section class="animals h-100">
@@ -37,7 +74,9 @@
 
     </main>
 
-    <footer class="h-100">
+    <footer>
+      <div class="container h-100 border">
+      </div>
     </footer>
 
   </body>
