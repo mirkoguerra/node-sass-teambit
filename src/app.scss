@@ -1,3 +1,11 @@
-h1 {
-  color: green;
+@import 'scss/var';
+@import 'scss/header';
+@import 'scss/main';
+@import 'scss/footer';
+
+// INITIALIZATION
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
