@@ -22,13 +22,17 @@ header section.nav-bar div.container img {
   margin: 20px 0;
 }
 
-header section.nav-bar div.container ul {
+header section.nav-bar div.container ul.large {
   display: flex;
   flex-direction: row;
 }
 
-header section.nav-bar div.container ul li {
+header section.nav-bar div.container ul.large li {
   margin-left: 10px;
+}
+
+header section.nav-bar div.container div.small {
+  display: none;
 }
 
 header section.jumbotron {
@@ -57,6 +61,24 @@ header section.jumbotron section.left div button {
 
 header section.jumbotron section.right img {
   width: 100%;
+}
+
+@media screen and (max-width: 799px) {
+  header section.nav-bar div.container ul.large {
+    display: none;
+  }
+
+  header section.nav-bar div.container div.small {
+    display: inline-block;
+  }
+
+  header section.jumbotron {
+    flex-direction: column;
+  }
+
+  header section.jumbotron section {
+    width: 100%;
+  }
 }
 
 main section.rabbits {
@@ -218,6 +240,41 @@ main section.see div.but {
 
 main section.see div.but button {
   margin: 0 5px;
+}
+
+@media screen and (max-width: 799px) {
+  main section.rabbits section.top-or-bottom section.squares {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  main section.animals section.normal-or-reverse div.big.not-only-img {
+    width: 100%;
+  }
+
+  main section.animals section.normal-or-reverse div.big.not-only-img div.sub-not-only-img {
+    width: 100%;
+  }
+
+  main section.animals section.normal-or-reverse div.only-img {
+    display: none;
+  }
+
+  main section.see h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  main section.see div.card {
+    padding: 10px;
+    width: 90%;
+  }
+
+  main section.see div.card span {
+    font-size: 10px;
+  }
 }
 
 footer {

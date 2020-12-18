@@ -171,3 +171,62 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 799px) {
+  main {
+    section.rabbits {
+
+      section.top-or-bottom {
+
+        section.squares {
+          flex-direction: column;
+          align-items: center;
+
+          div.square {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 624px) {
+  main {
+
+    section.animals {
+
+      section.normal-or-reverse {
+
+        div.big.not-only-img {
+          width: 100%;
+
+          div.sub-not-only-img {
+            width: 100%;
+          }
+        }
+
+        div.only-img {
+          display: none;
+        }
+      }
+    }
+
+    section.see {
+
+      h1 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      div.card {
+        padding: 10px;
+        width: 90%;
+
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
