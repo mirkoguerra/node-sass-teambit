@@ -4,27 +4,30 @@ header {
 }
 
 header section.nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid lightgrey;
-  width: 80%;
+  width: 100%;
   position: fixed;
   top: 0px;
   background-color: #FFFFFF;
 }
 
-header section.nav-bar img {
+header section.nav-bar div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+header section.nav-bar div.container img {
   margin: 20px 0;
 }
 
-header section.nav-bar ul {
+header section.nav-bar div.container ul {
   display: flex;
   flex-direction: row;
 }
 
-header section.nav-bar ul li {
+header section.nav-bar div.container ul li {
   margin-left: 10px;
 }
 
@@ -115,6 +118,62 @@ main section.rabbits h2.here {
 
 main section.animals {
   background-color: #FFFFFF;
+  padding: 25px;
+}
+
+main section.animals section.normal-or-reverse {
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+}
+
+main section.animals section.normal-or-reverse div.big {
+  width: 50%;
+}
+
+main section.animals section.normal-or-reverse div.only-img img {
+  width: 100%;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img div.sub-not-only-img {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img div.sub-not-only-img h2 {
+  margin-bottom: 30px;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img div.sub-not-only-img p {
+  margin-bottom: 20px;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img div.sub-not-only-img a {
+  font-size: 10px;
+}
+
+main section.animals section.normal-or-reverse div.not-only-img div.sub-not-only-img img {
+  margin-top: 20px;
+  width: 80%;
+}
+
+main section.animals section.normal {
+  flex-direction: row;
+}
+
+main section.animals section.reverse {
+  flex-direction: row-reverse;
+}
+
+main section.animals section.reverse div.not-only-img {
+  justify-content: flex-end;
 }
 
 main section.see {

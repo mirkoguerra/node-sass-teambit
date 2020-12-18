@@ -59,6 +59,69 @@ main {
 
   section.animals {
     background-color: $bg-w;
+    padding: 25px;
+
+    section.normal-or-reverse {
+      padding: 10px 0;
+      display: flex;
+      width: 100%;
+
+      div.big {
+        width: 50%;
+      }
+
+      div.only-img {
+
+        img {
+          width: 100%;
+        }
+      }
+
+      div.not-only-img {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+
+        div.sub-not-only-img {
+          display: flex;
+          flex-direction: column;
+          width: 70%;
+          h2 {
+            margin-bottom: 30px;
+
+          }
+
+          p {
+            margin-bottom: 20px;
+          }
+
+          a {
+            font-size: 10px;
+          }
+
+          img {
+            margin-top: 20px;
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    section.normal {
+      flex-direction: row;
+    }
+
+    section.reverse {
+      flex-direction: row-reverse;
+
+      div.not-only-img {
+        justify-content: flex-end;
+
+        div.sub-not-only-img {
+
+        }
+      }
+    }
   }
 
   section.see {
