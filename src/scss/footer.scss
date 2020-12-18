@@ -51,3 +51,39 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 799px) {
+
+  footer {
+
+    div.container {
+
+      section.left {
+        display: none;
+      }
+
+      section.right {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 624px) {
+
+  footer {
+
+    div.container {
+
+      section.right{
+        flex-wrap: wrap;
+
+        div {
+          width: calc(100% / 2);
+          margin-bottom: 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
