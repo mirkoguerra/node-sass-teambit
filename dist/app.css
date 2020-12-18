@@ -20,6 +20,7 @@ header section.nav-bar div.container {
 
 header section.nav-bar div.container img {
   margin: 20px 0;
+  height: 30px;
 }
 
 header section.nav-bar div.container ul.large {
@@ -38,7 +39,7 @@ header section.nav-bar div.container div.small {
 header section.jumbotron {
   display: flex;
   flex-direction: row;
-  margin-top: 67px;
+  margin-top: 71px;
 }
 
 header section.jumbotron section {
@@ -82,7 +83,8 @@ header section.jumbotron section.right img {
 }
 
 main section.rabbits {
-  background-color: #FFE7D1;
+  background-color: #3E14E9;
+  color: #FFFFFF;
   padding: 30px;
   text-align: center;
 }
@@ -199,7 +201,7 @@ main section.animals section.reverse div.not-only-img {
 }
 
 main section.see {
-  background-color: #FFE7D1;
+  background-color: #3E14E9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,6 +212,7 @@ main section.see {
 main section.see h1 {
   line-height: 50px;
   margin-bottom: 30px;
+  color: #FFFFFF;
 }
 
 main section.see h1 img {
@@ -361,6 +364,7 @@ body {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  color: #7F14D4;
 }
 
 h1 {
@@ -387,10 +391,11 @@ ul {
 ul li a {
   text-decoration: none;
   color: black;
+  color: #7F14D4;
 }
 
 ul li a:hover {
-  color: #FFE7D1;
+  color: #3E14E9;
 }
 
 .container {
@@ -402,7 +407,7 @@ ul li a:hover {
 .button {
   display: flex;
   flex-direction: row;
-  background-color: blue;
+  background-color: #7F14D4;
   color: #FFFFFF;
   padding: 5px;
   font-size: 10px;
@@ -411,9 +416,9 @@ ul li a:hover {
 }
 
 .button:hover {
-  color: blue;
+  color: #7F14D4;
   background-color: #FFFFFF;
-  border: 0.3px solid blue;
+  border: 0.3px solid #7F14D4;
 }
 
 .button img {

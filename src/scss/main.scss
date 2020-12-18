@@ -2,6 +2,7 @@ main {
 
   section.rabbits {
     background-color: $bg-p;
+    color: $bg-w;
     padding: 30px;
     text-align: center;
 
@@ -135,6 +136,7 @@ main {
     h1 {
       line-height: 50px;
       margin-bottom: 30px;
+      color: $bg-w;
 
       img {
         height: 25px;
