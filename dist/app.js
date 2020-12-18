@@ -93,7 +93,11 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+$(document).ready(function () {
+  $("#hamburger").click(function () {
+    $("#card").toggleClass("active");
+  });
+});
 
 /***/ }),
 

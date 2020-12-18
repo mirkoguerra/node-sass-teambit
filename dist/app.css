@@ -71,6 +71,39 @@ header section.jumbotron section.right img {
 
   header section.nav-bar div.container div.small {
     display: inline-block;
+    position: relative;
+  }
+
+  header section.nav-bar div.container div.small i {
+    cursor: pointer;
+  }
+
+  header section.nav-bar div.container div.small div.card {
+    display: none;
+    background-color: #3E14E9;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+  }
+
+  header section.nav-bar div.container div.small div.card li {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  header section.nav-bar div.container div.small div.card li a {
+    color: #FFFFFF;
+  }
+
+  header section.nav-bar div.container div.small div.card li:hover {
+    font-weight: 600;
+  }
+
+  header section.nav-bar div.container div.small div.card.active {
+    display: block;
   }
 
   header section.jumbotron {

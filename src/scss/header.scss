@@ -84,6 +84,39 @@ header {
 
         div.small {
           display: inline-block;
+          position: relative;
+
+          i {
+            cursor: pointer;
+          }
+
+          div.card {
+            display: none;
+            background-color: $bg-p;
+            width: 100px;
+            position: absolute;
+            top: 20px;
+            right: 0;
+            padding: 10px 5px;
+            border-radius: 5px;
+
+            li {
+              margin-bottom: 10px;
+              font-size: 12px;
+
+              a {
+                color: $bg-w;
+              }
+            }
+
+            li:hover {
+              font-weight: 600;
+            }
+          }
+
+          div.card.active {
+            display: block;
+          }
         }
       }
     }
