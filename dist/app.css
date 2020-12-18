@@ -1,5 +1,6 @@
 header {
   background-color: #FFFFFF;
+  padding-bottom: 20px;
 }
 
 header section.nav-bar {
@@ -8,6 +9,10 @@ header section.nav-bar {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgrey;
+  width: 80%;
+  position: fixed;
+  top: 0px;
+  background-color: #FFFFFF;
 }
 
 header section.nav-bar img {
@@ -26,6 +31,7 @@ header section.nav-bar ul li {
 header section.jumbotron {
   display: flex;
   flex-direction: row;
+  margin-top: 67px;
 }
 
 header section.jumbotron section {
@@ -52,6 +58,59 @@ header section.jumbotron section.right img {
 
 main section.rabbits {
   background-color: #FFE7D1;
+  padding: 30px;
+  text-align: center;
+}
+
+main section.rabbits section.top-or-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+main section.rabbits section.top-or-bottom h2 {
+  margin-bottom: 20px;
+}
+
+main section.rabbits section.top-or-bottom section.squares {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+main section.rabbits section.top-or-bottom section.squares div.square {
+  width: calc(100% / 3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section.rabbits section.top-or-bottom section.squares div.square img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+main section.rabbits section.top-or-bottom section.squares div.square span {
+  font-size: 10px;
+}
+
+main section.rabbits section.top-or-bottom section.rabbit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main section.rabbits section.top-or-bottom section.rabbit img {
+  height: 200px;
+}
+
+main section.rabbits div.line {
+  margin: 30px 0;
+  border-top: 0.3px solid lightgrey;
+}
+
+main section.rabbits h2.here {
+  margin-top: 50px;
 }
 
 main section.animals {
@@ -165,6 +224,10 @@ body {
 
 h1 {
   font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 h3 {

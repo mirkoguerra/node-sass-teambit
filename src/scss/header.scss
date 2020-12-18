@@ -1,5 +1,6 @@
 header {
   background-color: $bg-w;
+  padding-bottom: 20px;
 
   section.nav-bar {
     display: flex;
@@ -7,6 +8,10 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgrey;
+    width: 80%;
+    position: fixed;
+    top: 0px;
+    background-color: $bg-w;
 
     img {
       margin: 20px 0;
@@ -26,6 +31,7 @@ header {
   section.jumbotron {
     display: flex;
     flex-direction: row;
+    margin-top: 67px;
 
     section {
       width: 50%;
